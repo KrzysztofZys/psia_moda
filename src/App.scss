@@ -1,0 +1,115 @@
+@import "~bootstrap/scss/bootstrap";
+
+$main-violet-1: #4e2266;
+$main-violet-2: #422d4e;
+$main-violet-2--rgba: 66, 45, 78;
+$main-violet-3: #8b61a3;
+$main-violet-4: #270e35;
+
+$main-bright-0: #fdf2ec;
+$main-bright-1: #faeade;
+$main-bright-2: #ffe0ce;
+$main-bright-3: #e4a47e;
+
+$main-pink-1: #e3a7a8;
+$main-pink-2: #9c5f7c;
+
+.App {
+  color: $main-violet-1;
+  font-size: 1.7rem;
+}
+
+.back-violet--2 {
+  background-color: $main-violet-2;
+  color: $main-bright-1;
+}
+
+.back-brigth--1 {
+  background-color: $main-bright-2;
+  color: $main-violet-1;
+}
+
+.fa {
+  padding: .2rem;
+  width: 5rem;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.tittle {
+  text-shadow: 1rem 2rem 3rem rgba(0, 0, 0, 0.3);
+
+  &--upper {
+      font-size: 2.4rem;
+      opacity: 0.7;
+      text-align: center;
+  }
+
+  &--lower {
+      font-size: 4rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      text-align: center;
+  }
+}
+
+.button-def{
+  &,
+  &:link,
+  &:visited{
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 1.5rem 4rem;
+      display: inline-block;
+      transition: all .2s;
+      position: relative;
+      font-size: 1.8rem;
+      font-family: 'Montserrat', sans-serif;
+      border: none;
+          
+  }
+  &:hover {
+      transform: translateY(-.3rem);
+      box-shadow: 0 1rem 2rem  rgba(black, 0.2);
+
+      &::after {
+          transform: scaleX(1.4) scaleY(1.6);
+          opacity: 0;
+      }
+  }
+  
+  &:active, 
+  &:focus {
+      transform: translateY(-.1rem);
+      box-shadow: 0 .5rem 1.5rem rgba(black, 0.2);
+  }
+  
+  &--dark {
+      background-color: $main-violet-1;
+      color: $main-bright-1;
+
+      &::after {
+          background-color: $main-violet-1;
+      }
+  }
+  
+  &::after {
+      content: "";
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: all .4s;
+  }
+
+  &--animated {
+      animation: moveInBottom .5s ease-out .75s;
+      animation-fill-mode: backwards;
+  }
+}

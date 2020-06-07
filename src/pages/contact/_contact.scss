@@ -1,0 +1,54 @@
+@import "../../App.scss";
+
+.contact {
+    &__icon {
+        font-family: 'Glyphter';
+        background-image: linear-gradient(to right, $main-violet-1, $main-pink-1);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-size: 4rem;
+        
+        &--big {
+            font-size: 5rem;
+        }
+    }
+
+    &__text {
+        text-align: justify;
+        font-size: 1.8rem;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__link {
+        &:hover{
+            opacity: 0.7;
+          }
+        
+          &:visited {
+              text-decoration: none;
+              color: $main-violet-1;
+          }
+        
+          &:link {
+                color: $main-violet-1;
+              text-decoration: none;
+          }
+    }
+}
+
+.contact-back {
+    background-image: url(../../photos/Xcontactback.jpg);
+    background-size: cover;
+    justify-content: center;
+}
+
+
+@media (max-width: 1000px){
+    .contact__text {
+        padding: 0 3rem;
+    }
+}

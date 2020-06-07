@@ -1,0 +1,62 @@
+@import "../../App.scss";
+@import "../../fonts/linea/styles.css";
+
+.footer {
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.4);
+
+    &__list {
+        list-style: none;
+        
+    }
+
+    &__header:after {
+        content: "";
+        display: block;
+        border-bottom: .1rem solid $main-bright-1;
+        margin: 0 30rem 0 0;
+      }
+
+    &__icon {
+        margin-right: 1.2rem;
+        font-size: 2rem;
+    }
+    &__link {
+        &:hover{
+            opacity: 0.7;
+          }
+        
+          &:visited {
+              text-decoration: none;
+              color: $main-bright-1;
+          }
+        
+          &:link {
+                color: $main-bright-1;
+              text-decoration: none;
+          }
+    }
+    
+    &__bottom {
+        opacity: .5;
+        background-color: $main-violet-4;
+        width: 100%;
+        text-align: center;
+        letter-spacing: .5rem;
+        margin-bottom: 0;
+
+        &--down {
+            box-shadow: 0 0 3rem rgba(0, 0, 0, 0.4);
+            font-size: 1.0rem;
+            margin-top: 0;
+        }
+    }
+
+
+    @media (max-width: 900px){
+        &__dots {
+            visibility: hidden;
+        }
+
+        font-size: 1.6rem;
+    }
+}
