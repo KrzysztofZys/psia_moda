@@ -10,7 +10,7 @@ function Footer() {
       <ul className="footer__list">
         <li>
         <div className="d-flex footer__logo">
-          <img className="img-fluid" src={require("../Nav/logo_big_bright_circle.png")} alt="Logo"/>
+          <img className="img-fluid" src={require("../../photos/Xlogo.png")} alt="Logo"/>
         </div>
         </li>
       </ul>
@@ -41,13 +41,13 @@ function Footer() {
           <h2>Godziny otwarcia: </h2>
         </li>
         <li>
-          <p>Poniedziałek - Piątek: <span className="footer__dots">........</span> 8:00 - 18:00</p>
+          <p>Poniedziałek - Piątek: <span>........</span> 8:00 - 18:00</p>
         </li>
         <li>
-          <p>Sobota: <span className="footer__dots">.......................................</span>  10:00 - 17:00</p>
+          <p>Sobota: <span>.......................................</span>  10:00 - 17:00</p>
         </li>
         <li>
-          <p>Niedziela: <span className="footer__dots">....................................</span> Zamknięte</p>
+          <p>Niedziela: <span>....................................</span> Zamknięte</p>
         </li>
       </ul>
     </div>
@@ -58,7 +58,7 @@ function Footer() {
     </div>
     </div>
     <div className="row">
-      <h4 className="p-5 pb-4 footer__bottom">© COPYRIGHT 2020 PSIA MODA by Krzysztof Zys</h4>
+      <h4 className="p-5 pb-4 footer__bottom">© COPYRIGHT 2020 PSIA MODA made by Krzysztof Zys</h4>
       <span className="footer__bottom footer__bottom--down">Some icons are designed by Dario Ferrando</span>
     </div>
     </footer>

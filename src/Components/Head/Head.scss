@@ -8,6 +8,10 @@
     left: 42%;
     top: 30%;
   
+    &__over {
+        position: relative;
+    }
+
     &__tittle {
         font-size: 7rem;
         font-weight: 900;
