@@ -1,87 +1,85 @@
 @import "../../App.scss";
 
 .head {
-    z-index: 5;
-    position: absolute;
-    height: 100%;
-    text-align: center;
-    left: 42%;
-    top: 30%;
-  
-    &__over {
-        position: relative;
-    }
+  z-index: 5;
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  left: 42%;
+  top: 30%;
 
-    &__tittle {
-        font-size: 7rem;
-        font-weight: 900;
-        text-transform: uppercase;
-        letter-spacing: 0.5rem;
-        border-bottom: solid .3rem $main-violet-2;
-    }
-  
-    &__photo {
+  &__over {
+    position: relative;
+  }
+
+  &__tittle {
+    font-size: 7rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    border-bottom: solid 0.3rem $main-violet-2;
+  }
+
+  &__photo {
+    width: 100%;
+    z-index: -5;
+  }
+
+  &__logo {
+    visibility: hidden;
+    height: 0;
+  }
+
+  &__navigation {
+    font-size: 1.6rem;
+    padding: 2rem;
+    z-index: 0;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $main-violet-2;
+    overflow: hidden;
+
+    &:hover {
+      opacity: 0.9;
+      &:after {
         width: 100%;
-        z-index: -5;
-    }
-  
-    &__logo {
-        visibility: hidden;
-        height: 0;
+        background: $main-violet-2;
+      }
     }
 
-    &__navigation {
-        font-size: 1.6rem;
-        padding: 2rem;
-        z-index: 0;
-    }
-  
-    &__link {
+    &:visited {
       text-decoration: none;
       color: $main-violet-2;
-      overflow: hidden;
-  
-      &:hover{
-          opacity: 0.9;
-          &:after{
-              width: 100%;
-              background: $main-violet-2;
-          }
-      }
-  
-      &:visited {
-          text-decoration: none;
-          color: $main-violet-2;
-      }
-  
-      &:link {
-          text-decoration: none;
-          color: $main-violet-2;
-      }
-    } 
-}
-  
-
-@media (max-width: 1000px){
-    .head {
-       visibility: hidden;
-
-       &__tittle {
-        font-size: 1rem;
     }
-      
-      &__photo {
-        visibility: hidden;
-        height: 0;
-      }
 
-      &__logo {
-        margin: 2.5rem auto 0 auto;
-        visibility: visible;
-        height: 25rem;
-        border-radius: 50%;
-        box-shadow: 0 1.5rem 4rem rgba(0,0,0, .15); 
-      }
+    &:link {
+      text-decoration: none;
+      color: $main-violet-2;
     }
   }
-  
+}
+
+@media (max-width: 1000px) {
+  .head {
+    visibility: hidden;
+
+    &__tittle {
+      font-size: 1rem;
+    }
+
+    &__photo {
+      visibility: hidden;
+      height: 0;
+    }
+
+    &__logo {
+      margin: 2.5rem auto 0 auto;
+      visibility: visible;
+      height: 25rem;
+      border-radius: 50%;
+      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    }
+  }
+}

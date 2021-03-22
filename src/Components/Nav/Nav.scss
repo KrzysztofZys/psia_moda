@@ -1,81 +1,80 @@
 @import "../../App.scss";
 
-
 .nav {
-    background: $main-bright-0;
-    font-family: 'Questrial', sans-serif;
-    opacity: 1;
-    z-index: 10;
-    box-shadow: 0 0.7rem 3rem rgba(0, 0, 0, 0.3);
+  background: $main-bright-0;
+  font-family: "Questrial", sans-serif;
+  opacity: 1;
+  z-index: 10;
+  box-shadow: 0 0.7rem 3rem rgba(0, 0, 0, 0.3);
 
-    &__logo {
-        margin-top: -7rem;
-        margin-left: 10rem;
+  &__logo {
+    margin-top: -7rem;
+    margin-left: 10rem;
+  }
+
+  &__icon {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
+  &__list {
+    list-style: none;
+    text-transform: uppercase;
+    justify-content: space-around;
+    color: $main-violet-1;
+    font-size: 2rem;
+    z-index: 20;
+  }
+
+  &__links {
+    text-decoration: none;
+    color: $main-violet-2;
+    overflow: hidden;
+
+    &:after {
+      content: "";
+      display: block;
+      margin: auto;
+      height: 0.2rem;
+      width: 0px;
+      background: transparent;
+      margin-top: 0.25rem;
+      transition: width 0.5s ease, background-color 0.5s ease;
     }
 
-    &__icon {
-        width: 35px;
-        height: 5px;
-        background-color: black;
-        margin: 6px 0;
+    &:hover {
+      opacity: 0.9;
+      font-weight: 900;
+      &:after {
+        width: 100%;
+        background: $main-violet-2;
+      }
     }
-    
-    &__list {
-        list-style: none;
-        text-transform: uppercase;
-        justify-content: space-around;
-        color: $main-violet-1;
-        font-size: 2rem;
-        z-index: 20;
+
+    &:visited {
+      text-decoration: none;
+      color: $main-violet-2;
     }
-    
-    &__links {
-        text-decoration: none;
-        color: $main-violet-2;
-        overflow: hidden;
 
-        &:after {
-            content: '';
-            display: block;
-            margin: auto;
-            height: 0.2rem;
-            width: 0px;
-            background: transparent;
-            margin-top: 0.25rem;
-            transition: width .5s ease, background-color .5s ease;
-        }
-
-        &:hover{
-            opacity: 0.9;
-            font-weight: 900;
-            &:after{
-                width: 100%;
-                background: $main-violet-2;
-            }
-        }
-
-        &:visited {
-            text-decoration: none;
-            color: $main-violet-2;
-        }
-
-        &:link {
-            text-decoration: none;
-            color: $main-violet-2;
-        }
-    } 
+    &:link {
+      text-decoration: none;
+      color: $main-violet-2;
+    }
+  }
 }
 
-.logo{
-    position: absolute;
-    z-index: 100;
-    height: 18rem;
-    border-radius: 50%;
-    box-shadow: 0.2rem 0.5rem 2rem rgba(0, 0, 0, 0.3);
+.logo {
+  position: absolute;
+  z-index: 100;
+  height: 18rem;
+  border-radius: 50%;
+  box-shadow: 0.2rem 0.5rem 2rem rgba(0, 0, 0, 0.3);
 }
 
-@media only screen and (max-width: 1300px){
-    .logo {
-       visibility: hidden;
-    }
+@media only screen and (max-width: 1300px) {
+  .logo {
+    visibility: hidden;
+  }
 }

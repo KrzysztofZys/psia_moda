@@ -1,108 +1,108 @@
 @import "../../App.scss";
 
-.main{
-    &__tittle{
-        font-size: 5rem;
-        font-weight: 900;
-        text-transform: uppercase;
-        letter-spacing: 0.05rem;
-        text-shadow: 0 1.5rem 4rem rgba(0,0,0, .1);
+.main {
+  &__tittle {
+    font-size: 5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    text-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.1);
 
-        &:after {
-            content: "";
-            width: 20%;
-            display: block;
-            border-bottom: .3rem solid $main-violet-1;
-            margin: 5rem 50%;
-            transform: translate(-50%, -50%);
-        }
+    &:after {
+      content: "";
+      width: 20%;
+      display: block;
+      border-bottom: 0.3rem solid $main-violet-1;
+      margin: 5rem 50%;
+      transform: translate(-50%, -50%);
     }
+  }
 
-    &__text {
-        font-size: 1.9rem;
-        text-align: justify;
-        padding: 0rem 0rem 0rem 20rem;
+  &__text {
+    font-size: 1.9rem;
+    text-align: justify;
+    padding: 0rem 0rem 0rem 20rem;
+  }
 
-    }    
+  &__photo {
+    max-width: 100%;
+    padding: 0 30rem 0 10rem;
+    transition: ease-in-out 0.2s;
 
-    &__photo {
-        max-width: 100%;
-        padding: 0 30rem 0 10rem;
-        transition: ease-in-out .2s;
-
-        &:hover {
-            transform: translateY(-1.5px) scale(1.15);
-        }
+    &:hover {
+      transform: translateY(-1.5px) scale(1.15);
     }
+  }
 }
 
-@media (max-width: 1600px){
-    .main__photo {
-        padding: 0 7rem 0 4rem;
-    }
+@media (max-width: 1600px) {
+  .main__photo {
+    padding: 0 7rem 0 4rem;
+  }
 
-    .main__text {
-        padding: 0rem 0rem 0rem 10rem;
-    }
+  .main__text {
+    padding: 0rem 0rem 0rem 10rem;
+  }
 }
 
-@media (max-width: 1400px){
-    .main__photo {
-        padding: 0 4rem 0 3rem;
-    }
+@media (max-width: 1400px) {
+  .main__photo {
+    padding: 0 4rem 0 3rem;
+  }
 
-    .main__text {
-        padding: 0rem 0rem 2rem 4rem;
-    }
+  .main__text {
+    padding: 0rem 0rem 2rem 4rem;
+  }
 
-    .main__tittle {
-        font-size: 3.5rem;
-    }
+  .main__tittle {
+    font-size: 3.5rem;
+  }
 }
 
-@media (max-width: 850px){
-    .main__photo {
-        padding: 0 1rem 0 1rem;
-    }
+@media (max-width: 850px) {
+  .main__photo {
+    padding: 0 1rem 0 1rem;
+  }
 
-    .main__text {
-        padding: 0rem 0rem 2rem 0rem;
-    }
+  .main__text {
+    padding: 0rem 0rem 2rem 0rem;
+  }
 
-    .main__tittle {
-        font-size: 2.5rem;
-    }
+  .main__tittle {
+    font-size: 2.5rem;
+  }
 }
 
 .call {
-    background-image: linear-gradient(
-        to top,
-        rgba($main-violet-2, 0.8),
-        rgba($main-violet-1, 0.8)),
+  background-image: linear-gradient(
+      to top,
+      rgba($main-violet-2, 0.8),
+      rgba($main-violet-1, 0.8)
+    ),
     url(../../photos/Xaboutback.jpg);
-    background-size: cover;
-    justify-content: center;
-    box-shadow: 0 1.5rem 4rem rgba(0,0,0, .15);
-    padding: 4rem 0 30rem 0;
+  background-size: cover;
+  justify-content: center;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  padding: 4rem 0 30rem 0;
 
-    &__header {
-        color: white;
-        font-size: 4rem;
-        font-weight: 900;
-        text-transform: uppercase;
-        letter-spacing: 0.05rem;
-        padding: 2rem;
-        text-shadow: 2rem 1.5rem 4rem rgba(0,0,0, .8) ;
-    }
+  &__header {
+    color: white;
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    padding: 2rem;
+    text-shadow: 2rem 1.5rem 4rem rgba(0, 0, 0, 0.8);
+  }
 }
 
-@media (max-width: 900px){
-    .call{
-        padding: 0;
-        visibility: hidden;
-    }
+@media (max-width: 900px) {
+  .call {
+    padding: 0;
+    visibility: hidden;
+  }
 
-    .call__header {
-        font-size: 0;
-    }
+  .call__header {
+    font-size: 0;
+  }
 }
