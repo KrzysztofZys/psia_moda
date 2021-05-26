@@ -60,7 +60,7 @@ function Contact() {
                     className="contact__link"
                   >
                     <i className="icon-basic-mail contact__icon mr-3" />
-                    ilona5.debicka@gmail.com
+                    ilonadebicka5@gmaill
                   </a>
                 </p>
               </li>

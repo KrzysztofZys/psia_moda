@@ -39,7 +39,7 @@ function Footer() {
                   className="footer__link"
                 >
                   <i className="icon-basic-mail footer__icon" />
-                  ilona5.debicka@gmail.com
+                  ilonadebicka5@gmaill.com
                 </a>
               </p>
             </li>

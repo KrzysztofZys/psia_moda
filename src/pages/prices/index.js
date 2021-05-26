@@ -46,7 +46,7 @@ function Prices() {
               <li className="combo-box__element">Stylizacja</li>
               <li className="combo-box__element">Wyciąganie kleszczy</li>
               <li className="combo-box__element">Obcinanie pazurków</li>
-              <li className="combo-box__element">Kosmetyka uszów</li>
+              <li className="combo-box__element">Kosmetyka uszu</li>
             </ul>
           </div>
         </div>

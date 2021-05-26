@@ -87,7 +87,7 @@ function Home() {
               <p className="feature-box__text">
                 Strzyżenie przeprowadzane jest w bezpiecznych i komfortowych dla
                 psa warunkach. Używane są maszynki i trymery z najwyżej półki,
-                by można było zapewnić najlepszą jakość usługi, a pupil pozostął
+                by można było zapewnić najlepszą jakość usługi, a pupil pozostał
                 spokojny.
               </p>
             </div>
@@ -95,7 +95,7 @@ function Home() {
               <i className="feature-box__icon icong-comb"></i>
               <h3 className="feature-box__header">Stylizacja</h3>
               <p className="feature-box__text">
-                Stylizacaja jest najważniejszym elementem pracy groomera. W
+                Stylizacja jest najważniejszym elementem pracy groomera. W
                 Psiej Modzie stawia się na styl i elegancje zgodnie z
                 najnowszymi trendami mody.
               </p>
