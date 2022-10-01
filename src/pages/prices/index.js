@@ -64,10 +64,10 @@ function Prices() {
                 <p className="prices__text">Kosmetyka uszu</p>
               </div>
               <div className="col-4">
+                <p className="prices__text text-center">90 zł</p>
                 <p className="prices__text text-center">60 zł</p>
-                <p className="prices__text text-center">45 zł</p>
                 <p className="prices__text text-center">10 zł</p>
-                <p className="prices__text text-center">10 zł</p>
+                <p className="prices__text text-center">20 zł</p>
               </div>
             </div>
           </div>
@@ -84,10 +84,10 @@ function Prices() {
                 <p className="prices__text">Kosmetyka uszu</p>
               </div>
               <div className="col-4">
+                <p className="prices__text text-center">100 zł</p>
                 <p className="prices__text text-center">70 zł</p>
-                <p className="prices__text text-center">55 zł</p>
                 <p className="prices__text text-center">10 zł</p>
-                <p className="prices__text text-center">10 zł</p>
+                <p className="prices__text text-center">20 zł</p>
               </div>
             </div>
           </div>
@@ -104,8 +104,8 @@ function Prices() {
                 <p className="prices__text">Kosmetyka uszu</p>
               </div>
               <div className="col-4">
-                <p className="prices__text text-center">120 zł</p>
-                <p className="prices__text text-center">100 zł</p>
+                <p className="prices__text text-center">170 zł</p>
+                <p className="prices__text text-center">150 zł</p>
                 <p className="prices__text text-center">20 zł</p>
                 <p className="prices__text text-center">20 zł</p>
               </div>
