@@ -64,10 +64,10 @@ function Prices() {
                 <p className="prices__text">Kosmetyka uszu</p>
               </div>
               <div className="col-4">
-                <p className="prices__text text-center">90 zł</p>
-                <p className="prices__text text-center">60 zł</p>
-                <p className="prices__text text-center">10 zł</p>
-                <p className="prices__text text-center">20 zł</p>
+                <p className="prices__text text-center">100 zł</p>
+                <p className="prices__text text-center">80 zł</p>
+                <p className="prices__text text-center">15 zł</p>
+                <p className="prices__text text-center">30 zł</p>
               </div>
             </div>
           </div>
@@ -84,10 +84,10 @@ function Prices() {
                 <p className="prices__text">Kosmetyka uszu</p>
               </div>
               <div className="col-4">
+                <p className="prices__text text-center">130 zł</p>
                 <p className="prices__text text-center">100 zł</p>
-                <p className="prices__text text-center">70 zł</p>
-                <p className="prices__text text-center">10 zł</p>
-                <p className="prices__text text-center">20 zł</p>
+                <p className="prices__text text-center">15 zł</p>
+                <p className="prices__text text-center">30 zł</p>
               </div>
             </div>
           </div>
@@ -104,16 +104,16 @@ function Prices() {
                 <p className="prices__text">Kosmetyka uszu</p>
               </div>
               <div className="col-4">
-                <p className="prices__text text-center">170 zł</p>
-                <p className="prices__text text-center">150 zł</p>
-                <p className="prices__text text-center">20 zł</p>
-                <p className="prices__text text-center">20 zł</p>
+                <p className="prices__text text-center">230 zł</p>
+                <p className="prices__text text-center">200 zł</p>
+                <p className="prices__text text-center">30 zł</p>
+                <p className="prices__text text-center">40 zł</p>
               </div>
             </div>
           </div>
         </div>
         <p className="prices__text my-4">
-          *Podane ceny są orientacyjne i różnią się w zależności od stanu
+          * Podane ceny są orientacyjne i różnią się w zależności od stanu
           sierści pupila
         </p>
         <div className="row justify-content-center py-5 mb-5">
